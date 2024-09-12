@@ -49,7 +49,7 @@ namespace Evaluacion
             lbPersonas.Items.Clear();
             for (int i = 0; i < index; i++)
             {
-                lbPersonas.Items.Add(per[i].nombre + " " + per[i].apellido + " " + per[i].edad);
+                lbPersonas.Items.Add("Nombre: " + per[i].nombre + " " + per[i].apellido + ",  " + per[i].edad + " Años");
                 
             }
         }
